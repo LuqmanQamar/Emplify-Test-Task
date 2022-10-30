@@ -1,0 +1,87 @@
+/* For screen above 1070 */
+@media screen and (min-width: 1070px) {
+    /* showcase style */
+
+    .showcase {
+        grid-template-columns: 1.5fr 1.1fr;
+
+    }
+
+    /* Right showcase style */
+    .right-showcase .lg {
+        width: 500px;
+    }
+
+    .right-showcase .lead {
+        width: 435px;
+    }
+
+    .btn {
+        font-size: 13px
+    }
+}
+
+@media screen and (min-width: 1250px) {
+    /* showcase style */
+
+    .showcase {
+        grid-template-columns: repeat(2, 1fr);
+
+    }
+
+    /* Right showcase style */
+    .right-showcase .lg {
+        width: 500px;
+        font-size: 43px;
+        line-height: 47px;
+        margin-bottom: 35px;
+    }
+
+}
+
+@media screen and (min-width: 1400px) {
+    .showcase {
+        grid-template-columns: 1.4fr 1.2fr;
+
+    }
+
+    .right-showcase {
+        justify-content: center;
+        padding-left: 0px;
+    }
+
+    .right-showcase .lead {
+        width: 520px;
+    }
+
+    .boxes .box {
+        padding: 0px 50px;
+    }
+
+    .boxes .box h3 {
+        font-size: 15px;
+    }
+
+    .boxes .box p {
+        font-size: 14px;
+    }
+}
+
+@media screen and (min-width: 1580px) {
+    .boxes .box {
+        padding: 0px 80px;
+    }
+}
+
+@media screen and (min-width: 1700px) {
+    .right-showcase .right-showcase-container {
+        width: 52%;
+    }
+}
+
+@media screen and (min-width: 1850px) {
+    .boxes .main-flex {
+        width: 85%;
+        margin: 0 auto;
+    }
+}
